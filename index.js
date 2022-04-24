@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const videos = []
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Running")
 })
 app.get('/api/videos', (req, res) => {

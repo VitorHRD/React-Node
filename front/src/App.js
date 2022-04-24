@@ -42,7 +42,7 @@ function App() {
       <header className="App-header">
         <div className="divForm">
           <form>
-            <input id="inputLink" key="AddLink" type="text" placeholder="Add video ID" ></input>
+            <input id="inputLink" key="AddLink" type="text" placeholder="Add Youtube video ID" ></input>
           </form>
 
           <button onClick={() => { AddLink() }}>Add</button>
